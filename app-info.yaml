@@ -9,4 +9,4 @@ spec:
   lifecycle: experimental
   
   definition:
-    $asyncapi: https://api.apis.guru/v2/openapi.yaml
+    $asyncapi: https://akshay89350.github.io/hello/
