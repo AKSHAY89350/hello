@@ -7,6 +7,6 @@ spec:
   owner: user:guest
   lifecycle: experimental
   targets:
-    - ./config.yaml
+    - ./app-info.yaml
   providesApis:
     - index.js
