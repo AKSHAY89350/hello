@@ -33,7 +33,7 @@ jobs:
         CI: false
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v5
+      uses: peaceiris/actions-gh-pages
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
