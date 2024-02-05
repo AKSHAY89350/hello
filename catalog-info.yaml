@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "FIP"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
+  targets:
+    - ./config.yaml
+  providesApis:
+    - index.js
